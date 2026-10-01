@@ -1,0 +1,11 @@
+{
+  "name": "evil-cypherx",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.2",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
