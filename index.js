@@ -1,3 +1,7 @@
+const http = require('http');
+http.createServer((req,res)=>res.end('EVIL ALIVE')).listen(process.env.PORT || 3000);
+
+
 const { default: makeWASocket, useMultiFileAuthState } = require('@whiskeysockets/baileys')
 const qrcode = require('qrcode-terminal')
 const axios = require('axios')
